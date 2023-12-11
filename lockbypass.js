@@ -1,1 +1,3 @@
-var curloc = window.location; document.body.outerHTML="<body style='margin:0px;'><iframe src='"+curloc+"' style='border-style:none;width:100%;height:100%;'></iframe></body>";
+var curloc = window.location; document.body.outerHTML=`<body style='margin:0px;'><iframe src='"+curloc+"' style='border-style:none;width:100%;height:100%;'></iframe><div style="font-family:Spotify;font-size:30px;color:#230023;position:fixed;top:93%;left:86.3%;background-image:linear-gradient(to bottom right, black, purple) !important;border-style:solid;border-color:black;border-radius:18px;width: 280px;height: 100px;"><div style="
+    height: 10px; background:none !important;
+"></div><textarea style="border-style:none;background:none !important;user-select:none;resize:none;font-family:Spotify;font-size:40px;color:#ff00ff;width: 260px;height: 80px;margin-left: 15px;margin-bottom: 0px;" readonly="">XuluOnTop</textarea></div></body>`;
