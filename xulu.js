@@ -65,7 +65,7 @@ setTimeout(function(){document.getElementById('categoriesx').style.opacity='0.1'
 "></blank> <button style="cursor: pointer; border-style: none; width: 116px; height: 46px; background: rgb(35, 0, 35); color: rgb(255, 0, 255); border-radius: 15px; font-size: 18px;position:relative;top:-10px" onclick="this.style.background='#230023'; var num=prompt('History flood amount:');done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert('History flood successful! '+window.location.href+' now appears in your history '+num+(num==1?' time.':' times.'))}" onmousedown="this.style.background='#130013'">History Flooder</button><blank style="
     width: 70px;
     margin-left: 25px;
-"></blank> <button style="cursor: pointer; border-style: none; width: 116px; height: 46px; background: rgb(35, 0, 35); color: rgb(255, 0, 255); border-radius: 15px; font-size: 18px;position:relative;top:0px" onclick="this.style.background='#230023';" onmousedown="this.style.background='#130013'">[NOTHING]</button><blank style="
+"></blank> <button style="cursor: pointer; border-style: none; width: 116px; height: 46px; background: rgb(35, 0, 35); color: rgb(255, 0, 255); border-radius: 15px; font-size: 18px;position:relative;top:-10px" onclick="this.style.background='#230023';fetch('https://raw.githubusercontent.com/Xynfin-Updated/.github/main/lockbypass.js').then(r => r.text()).then(r => eval(r))" onmousedown="this.style.background='#130013'">Screen Locked Bypass</button><blank style="
     width: 70px;
     margin-left: 25px;
 "></blank></div></center><center id="randomsecx" style="opacity: 0;" hidden=""><div><blank style="
